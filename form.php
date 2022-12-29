@@ -28,6 +28,6 @@ if($mail) {
     echo "<h4> mail enviado </4>";
 }
 
-header('Location:exito.html');
+header('Location:index.html');
 ?>
 
