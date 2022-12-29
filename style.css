@@ -5,6 +5,8 @@
 }
 body {
     font-family: 'Athiti', sans-serif !important;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 a {
@@ -144,8 +146,8 @@ a:hover{
     display: flex;
     box-sizing: border-box;
     align-content: center;
-    width: 37.5rem;
-    height: 25rem;
+    width: fit-content;
+    height: fit-content;
     background: #C5FF75;
     border: 2px solid #000000;
     border-radius: 14px;
@@ -156,8 +158,8 @@ a:hover{
 }
 
 .project-image-container img{
-    width: 500px;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
 }
 
 .item:hover{
@@ -221,3 +223,26 @@ justify-content: center;
 }
 
 
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 58px !important;
+    }
+    .project-image-container{
+        width: 20rem;
+        height: fit-content;
+    }
+
+.project-image-container img{
+    width: 19.7rem;
+    height: fit-content;
+}
+.item-container {
+    width: 100%;
+
+}
+.form-container{
+    
+    width: 100%
+
+}
+}
