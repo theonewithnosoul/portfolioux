@@ -42,6 +42,9 @@ li{
     font-size: 20px;
     font-weight: 500;
 }
+navbar{
+    position: fixed;
+}
 
 /*Header*/
 .header-container {
@@ -53,7 +56,7 @@ li{
 }
 
 .hero{
-    margin: 100px 0 60px 0;
+    margin: 80px 0 60px 0;
 }
 
 section{
@@ -142,7 +145,7 @@ a:hover{
 }
 
 
-.project-image-container {
+.project-image-container img{
     display: flex;
     box-sizing: border-box;
     align-content: center;
@@ -157,10 +160,10 @@ a:hover{
     margin: 0 0 2rem 0;
 }
 
-.project-image-container img{
+/* .project-image-container {
     width: fit-content;
     height: fit-content;
-}
+} */
 
 .item:hover{
     transition: all 0.2s ease-in-out 0s;
