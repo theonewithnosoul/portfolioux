@@ -53,6 +53,7 @@ navbar{
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
+    margin-top: 5rem;
 }
 
 .hero{
@@ -230,10 +231,18 @@ justify-content: center;
     h1{
         font-size: 58px !important;
     }
-   
+   .header-container{
+    margin-top: 10rem;
+   }
+   .nav-item{
+    padding: 6px !important;
+   }
+   .nav-link{
+    font-size: 16px !important;
+   }
 
 .project-image-container img{
-    width: 342px;
+    width: 100%;
    
 }
 .item-container {
