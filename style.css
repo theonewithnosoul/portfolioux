@@ -151,7 +151,7 @@ a:hover{
     align-content: center;
     width: fit-content;
     height: fit-content;
-    background: #C5FF75;
+    /* background: #C5FF75; */
     border: 2px solid #000000;
     border-radius: 14px;
     box-shadow: 4px 5px 0px #000000;
@@ -234,7 +234,7 @@ justify-content: center;
 
 .project-image-container img{
     width: 342px;
-    height: 295px;
+   
 }
 .item-container {
     width: 100%;
